@@ -81,3 +81,6 @@ This project contains both the backend (Node.js/Express/MongoDB) and frontend (R
 
 - Make sure both backend and frontend servers are running.
 - The backend must be running before using the
+
+## Video demonstration Link
+[Video Link](https://drive.google.com/file/d/1DDytPr9CotiS0FHWudtB2qPoTP5h1BEv/view?usp=sharing) 
