@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "e89e687b-c63b-47aa-99f3-f1ddc7104a99",
+		"name": "Book App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "43318961",
+		"_collection_link": "https://universal-astronaut-625404.postman.co/workspace/Team-Workspace~7c472898-11b0-4fcf-8335-9ffdbfec6841/collection/43318961-e89e687b-c63b-47aa-99f3-f1ddc7104a99?action=share&source=collection_link&creator=43318961"
+	},
+	"item": [
+		{
+			"name": "Get Books",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Add Book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n       \r\n        \"title\": \"Programing in PHP\",\r\n        \"author\": \"Ali\",\r\n        \"publishYear\": 2000\r\n        \r\n    }"
+				},
+				"url": "http://localhost:5000/api/books"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Book",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n       \r\n        \r\n        \"author\": \"Ahmed\"\r\n       \r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/books"
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Book",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:5000/api/books/68624a3fb38fbbfa506ddfb1"
+			},
+			"response": []
+		}
+	]
+}
